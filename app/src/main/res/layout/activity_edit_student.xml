@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText android:id="@+id/edit_name_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Name" />
+    <EditText android:id="@+id/edit_id_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="ID" />
+    <EditText android:id="@+id/edit_phone_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Phone" />
+    <EditText android:id="@+id/edit_address_et" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Address" />
+    <CheckBox android:id="@+id/edit_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Is Checked?"/>
+
+    <Button android:id="@+id/update_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save" />
+    <Button android:id="@+id/delete_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delete" android:backgroundTint="#FF0000"/>
+    <Button android:id="@+id/cancel_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Cancel" />
+</LinearLayout>
