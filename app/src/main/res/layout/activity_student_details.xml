@@ -9,6 +9,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
+        android:layout_marginTop="100dp"
         android:src="@drawable/student_avatar"
         android:layout_marginBottom="20dp"/>
 
