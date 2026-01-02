@@ -22,6 +22,10 @@ class StudentDetailsActivity : AppCompatActivity() {
             intent.putExtra("student_position", studentPosition)
             startActivity(intent)
         }
+
+        binding.backBtn.setOnClickListener {
+            finish()
+        }
     }
 
     override fun onResume() {

@@ -20,4 +20,5 @@
     <TextView android:id="@+id/check_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="18sp" android:layout_marginBottom="20dp"/>
 
     <Button android:id="@+id/edit_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Edit" />
+    <Button android:id="@+id/back_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Back" />
 </LinearLayout>
